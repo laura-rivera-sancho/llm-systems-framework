@@ -12,6 +12,7 @@ An offline-first demonstration of how an LLM can turn unstructured B2B SaaS feed
 |---|---|---|
 | Portfolio scope | [Roadmap](ROADMAP.md) | What is complete and what remains before a fuller case study |
 | Business framing | [Business case and value hypothesis](docs/business_case.md) | Decision context, potential value, operating boundaries, and evidence needed for a pilot |
+| Stakeholder summary | [Stakeholder readout](docs/stakeholder_readout.md) | Demonstration findings, what they do and do not support, and recommended next evidence |
 | Architecture | [Architecture at a glance](#architecture-at-a-glance) | Data flow, model boundary, validation, and dashboard |
 | Reproducibility | [Quick start](#quick-start) | Offline setup, optional inference, and dashboard launch |
 | Evaluation | [Evaluation and reliability](#evaluation-and-reliability) | Blind human review, metrics, evidence checks, and limitations |
@@ -51,8 +52,8 @@ See the [roadmap](ROADMAP.md) for the current completion gates. This project int
 | Synthetic data and offline dashboard | Complete | Deterministic fictional data and an API-independent dashboard |
 | Gemini classification pipeline | Complete | Structured output, evidence checks, resumable cache, and usage logging; 120/120 saved records validate |
 | Human-review workflow | Implemented; pilot only | Blind worksheet and scoring exist; five labeled cases are not sufficient for quality claims |
-| Full portfolio case study | Not started | A business-case/value-hypothesis draft exists; a stakeholder readout still needs reviewable evaluation evidence and explicit limitations |
-| Publication packaging | Published; CI passed | Initial `main` commit published on 2026-10-13 with the reviewed 36-file allowlist; the Python 3.11–3.13 CI matrix passed; `.env`, per-record caches, and local API-usage logs are excluded |
+| Full portfolio case study | Draft; validation pending | Business case and stakeholder readout are documented; representative human evaluation and a real-process baseline are still needed before quality or value claims |
+| Publication packaging | Published; CI passed | Initial `main` commit published on 2026-10-13 with the reviewed 36-file allowlist; a stakeholder readout was added in a follow-up; the Python 3.11–3.13 CI matrix passed; `.env`, per-record caches, and local API-usage logs are excluded |
 
 ## Dataset design and limitations
 
@@ -139,6 +140,7 @@ Tests cover deterministic dataset creation, evidence validation, resumable check
 app/streamlit_app.py            Streamlit dashboard
 data/synthetic/                 Fictional input and example tracker
 data/evaluation/                Blind worksheet, separate predictions, and labeling guide
+docs/stakeholder_readout.md     Demonstration summary, limits, and recommended next evidence
 src/classification.py           Gemini prompt, schema checks, retries, cache
 src/evaluation.py               Blind sampling and human-reviewed metrics
 src/generate_synthetic.py       Deterministic data generator
