@@ -1,0 +1,121 @@
+feedback_id,date,customer_segment,product_area,feedback_source,survey_score,customer_comment,synthetic
+VOC-0001,2025-01-03,SMB,Analytics,Support ticket,,This has been frustrating. I had to click through three menus to find the usage report; the layout is confusing.,True
+VOC-0002,2025-01-06,SMB,Integrations,NPS survey,10,"This has been frustrating. The workspace logged me out twice during a customer call, so I had to restart.",True
+VOC-0003,2025-01-09,Mid-market,Administration,CSAT survey,1,"This has been frustrating. The dashboard takes about 20 seconds to load each morning, which slows our review.",True
+VOC-0004,2025-01-12,Mid-market,Reporting,Product request,,This has been frustrating. We were charged for two extra seats after removing those users from the workspace.,True
+VOC-0005,2025-01-15,Enterprise,Core platform,Onboarding,,"This has been frustrating. The Salesforce sync is several hours behind, and our team is working from stale account data.",True
+VOC-0006,2025-01-18,Enterprise,Analytics,Customer success,,This has been frustrating. We are still unsure how to map our fields after onboarding; the setup guide skips that step.,True
+VOC-0007,2025-01-21,SMB,Integrations,Support ticket,,This has been frustrating. I opened a ticket on Monday and still have no response about the export failure.,True
+VOC-0008,2025-01-24,SMB,Administration,NPS survey,9,This has been frustrating. It would help if we could schedule a report and send it to regional leads every week.,True
+VOC-0009,2025-01-27,Mid-market,Reporting,CSAT survey,3,"This has been frustrating. The API page does not show a working pagination example, so we had to guess the parameters.",True
+VOC-0010,2025-01-30,Mid-market,Core platform,Product request,,This has been frustrating. A read-only analyst can edit a saved view; we need clearer role permissions.,True
+VOC-0011,2025-02-02,Enterprise,Analytics,Onboarding,,"Overall, this is manageable. I had to click through three menus to find the usage report; the layout is confusing.",True
+VOC-0012,2025-02-05,Enterprise,Integrations,Customer success,,"Overall, this is manageable. The workspace logged me out twice during a customer call, so I had to restart.",True
+VOC-0013,2025-02-08,SMB,Administration,Support ticket,,"Overall, this is manageable. The dashboard takes about 20 seconds to load each morning, which slows our review.",True
+VOC-0014,2025-02-11,SMB,Reporting,NPS survey,5,"Overall, this is manageable. We were charged for two extra seats after removing those users from the workspace.",True
+VOC-0015,2025-02-14,Mid-market,Core platform,CSAT survey,4,"Overall, this is manageable. The Salesforce sync is several hours behind, and our team is working from stale account data.",True
+VOC-0016,2025-02-17,Mid-market,Analytics,Product request,,"Overall, this is manageable. We are still unsure how to map our fields after onboarding; the setup guide skips that step.",True
+VOC-0017,2025-02-20,Enterprise,Integrations,Onboarding,,"Overall, this is manageable. I opened a ticket on Monday and still have no response about the export failure.",True
+VOC-0018,2025-02-23,Enterprise,Administration,Customer success,,"Overall, this is manageable. It would help if we could schedule a report and send it to regional leads every week.",True
+VOC-0019,2025-02-26,SMB,Reporting,Support ticket,,"Overall, this is manageable. The API page does not show a working pagination example, so we had to guess the parameters.",True
+VOC-0020,2025-03-01,SMB,Core platform,NPS survey,10,"Overall, this is manageable. A read-only analyst can edit a saved view; we need clearer role permissions.",True
+VOC-0021,2025-03-04,Mid-market,Analytics,CSAT survey,3,"We like the product, but I had to click through three menus to find the usage report; the layout is confusing.",True
+VOC-0022,2025-03-07,Mid-market,Integrations,Product request,,"We like the product, but The workspace logged me out twice during a customer call, so I had to restart.",True
+VOC-0023,2025-03-10,Enterprise,Administration,Onboarding,,"We like the product, but The dashboard takes about 20 seconds to load each morning, which slows our review.",True
+VOC-0024,2025-03-13,Enterprise,Reporting,Customer success,,"We like the product, but We were charged for two extra seats after removing those users from the workspace.",True
+VOC-0025,2025-03-16,SMB,Core platform,Support ticket,,"We like the product, but The Salesforce sync is several hours behind, and our team is working from stale account data.",True
+VOC-0026,2025-03-19,SMB,Analytics,NPS survey,7,"We like the product, but We are still unsure how to map our fields after onboarding; the setup guide skips that step.",True
+VOC-0027,2025-03-22,Mid-market,Integrations,CSAT survey,4,"We like the product, but I opened a ticket on Monday and still have no response about the export failure.",True
+VOC-0028,2025-03-25,Mid-market,Administration,Product request,,"We like the product, but It would help if we could schedule a report and send it to regional leads every week.",True
+VOC-0029,2025-03-28,Enterprise,Reporting,Onboarding,,"We like the product, but The API page does not show a working pagination example, so we had to guess the parameters.",True
+VOC-0030,2025-03-31,Enterprise,Core platform,Customer success,,"We like the product, but A read-only analyst can edit a saved view; we need clearer role permissions.",True
+VOC-0031,2025-04-03,SMB,Analytics,Support ticket,,Thanks for the recent improvements. I had to click through three menus to find the usage report; the layout is confusing.,True
+VOC-0032,2025-04-06,SMB,Integrations,NPS survey,0,"Thanks for the recent improvements. The workspace logged me out twice during a customer call, so I had to restart.",True
+VOC-0033,2025-04-09,Mid-market,Administration,CSAT survey,5,"Thanks for the recent improvements. The dashboard takes about 20 seconds to load each morning, which slows our review.",True
+VOC-0034,2025-04-12,Mid-market,Reporting,Product request,,Thanks for the recent improvements. We were charged for two extra seats after removing those users from the workspace.,True
+VOC-0035,2025-04-15,Enterprise,Core platform,Onboarding,,"Thanks for the recent improvements. The Salesforce sync is several hours behind, and our team is working from stale account data.",True
+VOC-0036,2025-04-18,Enterprise,Analytics,Customer success,,Thanks for the recent improvements. We are still unsure how to map our fields after onboarding; the setup guide skips that step.,True
+VOC-0037,2025-04-21,SMB,Integrations,Support ticket,,Thanks for the recent improvements. I opened a ticket on Monday and still have no response about the export failure.,True
+VOC-0038,2025-04-24,SMB,Administration,NPS survey,10,Thanks for the recent improvements. It would help if we could schedule a report and send it to regional leads every week.,True
+VOC-0039,2025-04-27,Mid-market,Reporting,CSAT survey,4,"Thanks for the recent improvements. The API page does not show a working pagination example, so we had to guess the parameters.",True
+VOC-0040,2025-04-30,Mid-market,Core platform,Product request,,Thanks for the recent improvements. A read-only analyst can edit a saved view; we need clearer role permissions.,True
+VOC-0041,2025-05-03,Enterprise,Analytics,Onboarding,,This is blocking part of our workflow. I had to click through three menus to find the usage report; the layout is confusing.,True
+VOC-0042,2025-05-06,Enterprise,Integrations,Customer success,,"This is blocking part of our workflow. The workspace logged me out twice during a customer call, so I had to restart.",True
+VOC-0043,2025-05-09,SMB,Administration,Support ticket,,"This is blocking part of our workflow. The dashboard takes about 20 seconds to load each morning, which slows our review.",True
+VOC-0044,2025-05-12,SMB,Reporting,NPS survey,9,This is blocking part of our workflow. We were charged for two extra seats after removing those users from the workspace.,True
+VOC-0045,2025-05-15,Mid-market,Core platform,CSAT survey,4,"This is blocking part of our workflow. The Salesforce sync is several hours behind, and our team is working from stale account data.",True
+VOC-0046,2025-05-18,Mid-market,Analytics,Product request,,This is blocking part of our workflow. We are still unsure how to map our fields after onboarding; the setup guide skips that step.,True
+VOC-0047,2025-05-21,Enterprise,Integrations,Onboarding,,This is blocking part of our workflow. I opened a ticket on Monday and still have no response about the export failure.,True
+VOC-0048,2025-05-24,Enterprise,Administration,Customer success,,This is blocking part of our workflow. It would help if we could schedule a report and send it to regional leads every week.,True
+VOC-0049,2025-05-27,SMB,Reporting,Support ticket,,"This is blocking part of our workflow. The API page does not show a working pagination example, so we had to guess the parameters.",True
+VOC-0050,2025-05-30,SMB,Core platform,NPS survey,2,This is blocking part of our workflow. A read-only analyst can edit a saved view; we need clearer role permissions.,True
+VOC-0051,2025-06-02,Mid-market,Analytics,CSAT survey,5,I am not sure whether this is expected. I had to click through three menus to find the usage report; the layout is confusing.,True
+VOC-0052,2025-06-05,Mid-market,Integrations,Product request,,"I am not sure whether this is expected. The workspace logged me out twice during a customer call, so I had to restart.",True
+VOC-0053,2025-06-08,Enterprise,Administration,Onboarding,,"I am not sure whether this is expected. The dashboard takes about 20 seconds to load each morning, which slows our review.",True
+VOC-0054,2025-06-11,Enterprise,Reporting,Customer success,,I am not sure whether this is expected. We were charged for two extra seats after removing those users from the workspace.,True
+VOC-0055,2025-06-14,SMB,Core platform,Support ticket,,"I am not sure whether this is expected. The Salesforce sync is several hours behind, and our team is working from stale account data.",True
+VOC-0056,2025-06-17,SMB,Analytics,NPS survey,9,I am not sure whether this is expected. We are still unsure how to map our fields after onboarding; the setup guide skips that step.,True
+VOC-0057,2025-06-20,Mid-market,Integrations,CSAT survey,5,I am not sure whether this is expected. I opened a ticket on Monday and still have no response about the export failure.,True
+VOC-0058,2025-06-23,Mid-market,Administration,Product request,,I am not sure whether this is expected. It would help if we could schedule a report and send it to regional leads every week.,True
+VOC-0059,2025-06-26,Enterprise,Reporting,Onboarding,,"I am not sure whether this is expected. The API page does not show a working pagination example, so we had to guess the parameters.",True
+VOC-0060,2025-06-29,Enterprise,Core platform,Customer success,,I am not sure whether this is expected. A read-only analyst can edit a saved view; we need clearer role permissions.,True
+VOC-0061,2025-07-02,SMB,Analytics,Support ticket,,"The team has found a workaround, although I had to click through three menus to find the usage report; the layout is confusing.",True
+VOC-0062,2025-07-05,SMB,Integrations,NPS survey,6,"The team has found a workaround, although The workspace logged me out twice during a customer call, so I had to restart.",True
+VOC-0063,2025-07-08,Mid-market,Administration,CSAT survey,2,"The team has found a workaround, although The dashboard takes about 20 seconds to load each morning, which slows our review.",True
+VOC-0064,2025-07-11,Mid-market,Reporting,Product request,,"The team has found a workaround, although We were charged for two extra seats after removing those users from the workspace.",True
+VOC-0065,2025-07-14,Enterprise,Core platform,Onboarding,,"The team has found a workaround, although The Salesforce sync is several hours behind, and our team is working from stale account data.",True
+VOC-0066,2025-07-17,Enterprise,Analytics,Customer success,,"The team has found a workaround, although We are still unsure how to map our fields after onboarding; the setup guide skips that step.",True
+VOC-0067,2025-07-20,SMB,Integrations,Support ticket,,"The team has found a workaround, although I opened a ticket on Monday and still have no response about the export failure.",True
+VOC-0068,2025-07-23,SMB,Administration,NPS survey,10,"The team has found a workaround, although It would help if we could schedule a report and send it to regional leads every week.",True
+VOC-0069,2025-07-26,Mid-market,Reporting,CSAT survey,4,"The team has found a workaround, although The API page does not show a working pagination example, so we had to guess the parameters.",True
+VOC-0070,2025-07-29,Mid-market,Core platform,Product request,,"The team has found a workaround, although A read-only analyst can edit a saved view; we need clearer role permissions.",True
+VOC-0071,2025-08-01,Enterprise,Analytics,Onboarding,,We are happy with the product overall. I had to click through three menus to find the usage report; the layout is confusing.,True
+VOC-0072,2025-08-04,Enterprise,Integrations,Customer success,,"We are happy with the product overall. The workspace logged me out twice during a customer call, so I had to restart.",True
+VOC-0073,2025-08-07,SMB,Administration,Support ticket,,"We are happy with the product overall. The dashboard takes about 20 seconds to load each morning, which slows our review.",True
+VOC-0074,2025-08-10,SMB,Reporting,NPS survey,6,We are happy with the product overall. We were charged for two extra seats after removing those users from the workspace.,True
+VOC-0075,2025-08-13,Mid-market,Core platform,CSAT survey,3,"We are happy with the product overall. The Salesforce sync is several hours behind, and our team is working from stale account data.",True
+VOC-0076,2025-08-16,Mid-market,Analytics,Product request,,We are happy with the product overall. We are still unsure how to map our fields after onboarding; the setup guide skips that step.,True
+VOC-0077,2025-08-19,Enterprise,Integrations,Onboarding,,We are happy with the product overall. I opened a ticket on Monday and still have no response about the export failure.,True
+VOC-0078,2025-08-22,Enterprise,Administration,Customer success,,We are happy with the product overall. It would help if we could schedule a report and send it to regional leads every week.,True
+VOC-0079,2025-08-25,SMB,Reporting,Support ticket,,"We are happy with the product overall. The API page does not show a working pagination example, so we had to guess the parameters.",True
+VOC-0080,2025-08-28,SMB,Core platform,NPS survey,10,We are happy with the product overall. A read-only analyst can edit a saved view; we need clearer role permissions.,True
+VOC-0081,2025-08-31,Mid-market,Analytics,CSAT survey,5,Please help us understand why I had to click through three menus to find the usage report; the layout is confusing.,True
+VOC-0082,2025-09-03,Mid-market,Integrations,Product request,,"Please help us understand why The workspace logged me out twice during a customer call, so I had to restart.",True
+VOC-0083,2025-09-06,Enterprise,Administration,Onboarding,,"Please help us understand why The dashboard takes about 20 seconds to load each morning, which slows our review.",True
+VOC-0084,2025-09-09,Enterprise,Reporting,Customer success,,Please help us understand why We were charged for two extra seats after removing those users from the workspace.,True
+VOC-0085,2025-09-12,SMB,Core platform,Support ticket,,"Please help us understand why The Salesforce sync is several hours behind, and our team is working from stale account data.",True
+VOC-0086,2025-09-15,SMB,Analytics,NPS survey,7,Please help us understand why We are still unsure how to map our fields after onboarding; the setup guide skips that step.,True
+VOC-0087,2025-09-18,Mid-market,Integrations,CSAT survey,4,Please help us understand why I opened a ticket on Monday and still have no response about the export failure.,True
+VOC-0088,2025-09-21,Mid-market,Administration,Product request,,Please help us understand why It would help if we could schedule a report and send it to regional leads every week.,True
+VOC-0089,2025-09-24,Enterprise,Reporting,Onboarding,,"Please help us understand why The API page does not show a working pagination example, so we had to guess the parameters.",True
+VOC-0090,2025-09-27,Enterprise,Core platform,Customer success,,Please help us understand why A read-only analyst can edit a saved view; we need clearer role permissions.,True
+VOC-0091,2025-09-30,SMB,Analytics,Support ticket,,This is a small suggestion: I had to click through three menus to find the usage report; the layout is confusing.,True
+VOC-0092,2025-10-03,SMB,Integrations,NPS survey,8,"This is a small suggestion: The workspace logged me out twice during a customer call, so I had to restart.",True
+VOC-0093,2025-10-06,Mid-market,Administration,CSAT survey,5,"This is a small suggestion: The dashboard takes about 20 seconds to load each morning, which slows our review.",True
+VOC-0094,2025-10-09,Mid-market,Reporting,Product request,,This is a small suggestion: We were charged for two extra seats after removing those users from the workspace.,True
+VOC-0095,2025-10-12,Enterprise,Core platform,Onboarding,,"This is a small suggestion: The Salesforce sync is several hours behind, and our team is working from stale account data.",True
+VOC-0096,2025-10-15,Enterprise,Analytics,Customer success,,This is a small suggestion: We are still unsure how to map our fields after onboarding; the setup guide skips that step.,True
+VOC-0097,2025-10-18,SMB,Integrations,Support ticket,,This is a small suggestion: I opened a ticket on Monday and still have no response about the export failure.,True
+VOC-0098,2025-10-21,SMB,Administration,NPS survey,9,This is a small suggestion: It would help if we could schedule a report and send it to regional leads every week.,True
+VOC-0099,2025-10-24,Mid-market,Reporting,CSAT survey,4,"This is a small suggestion: The API page does not show a working pagination example, so we had to guess the parameters.",True
+VOC-0100,2025-10-27,Mid-market,Core platform,Product request,,This is a small suggestion: A read-only analyst can edit a saved view; we need clearer role permissions.,True
+VOC-0101,2025-10-30,Enterprise,Analytics,Onboarding,,"We rely on this every day, and I had to click through three menus to find the usage report; the layout is confusing.",True
+VOC-0102,2025-11-02,Enterprise,Integrations,Customer success,,"We rely on this every day, and The workspace logged me out twice during a customer call, so I had to restart.",True
+VOC-0103,2025-11-05,SMB,Administration,Support ticket,,"We rely on this every day, and The dashboard takes about 20 seconds to load each morning, which slows our review.",True
+VOC-0104,2025-11-08,SMB,Reporting,NPS survey,10,"We rely on this every day, and We were charged for two extra seats after removing those users from the workspace.",True
+VOC-0105,2025-11-11,Mid-market,Core platform,CSAT survey,5,"We rely on this every day, and The Salesforce sync is several hours behind, and our team is working from stale account data.",True
+VOC-0106,2025-11-14,Mid-market,Analytics,Product request,,"We rely on this every day, and We are still unsure how to map our fields after onboarding; the setup guide skips that step.",True
+VOC-0107,2025-11-17,Enterprise,Integrations,Onboarding,,"We rely on this every day, and I opened a ticket on Monday and still have no response about the export failure.",True
+VOC-0108,2025-11-20,Enterprise,Administration,Customer success,,"We rely on this every day, and It would help if we could schedule a report and send it to regional leads every week.",True
+VOC-0109,2025-11-23,SMB,Reporting,Support ticket,,"We rely on this every day, and The API page does not show a working pagination example, so we had to guess the parameters.",True
+VOC-0110,2025-11-26,SMB,Core platform,NPS survey,8,"We rely on this every day, and A read-only analyst can edit a saved view; we need clearer role permissions.",True
+VOC-0111,2025-11-29,Mid-market,Analytics,CSAT survey,3,"So far, the experience is good; I had to click through three menus to find the usage report; the layout is confusing.",True
+VOC-0112,2025-12-02,Mid-market,Integrations,Product request,,"So far, the experience is good; The workspace logged me out twice during a customer call, so I had to restart.",True
+VOC-0113,2025-12-05,Enterprise,Administration,Onboarding,,"So far, the experience is good; The dashboard takes about 20 seconds to load each morning, which slows our review.",True
+VOC-0114,2025-12-08,Enterprise,Reporting,Customer success,,"So far, the experience is good; We were charged for two extra seats after removing those users from the workspace.",True
+VOC-0115,2025-12-11,SMB,Core platform,Support ticket,,"So far, the experience is good; The Salesforce sync is several hours behind, and our team is working from stale account data.",True
+VOC-0116,2025-12-14,SMB,Analytics,NPS survey,4,"So far, the experience is good; We are still unsure how to map our fields after onboarding; the setup guide skips that step.",True
+VOC-0117,2025-12-17,Mid-market,Integrations,CSAT survey,2,"So far, the experience is good; I opened a ticket on Monday and still have no response about the export failure.",True
+VOC-0118,2025-12-20,Mid-market,Administration,Product request,,"So far, the experience is good; It would help if we could schedule a report and send it to regional leads every week.",True
+VOC-0119,2025-12-23,Enterprise,Reporting,Onboarding,,"So far, the experience is good; The API page does not show a working pagination example, so we had to guess the parameters.",True
+VOC-0120,2025-12-26,Enterprise,Core platform,Customer success,,"So far, the experience is good; A read-only analyst can edit a saved view; we need clearer role permissions.",True

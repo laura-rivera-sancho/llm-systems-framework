@@ -1,0 +1,4 @@
+action_id,feedback_id,issue_summary,owner,status,next_update,illustrative
+ACT-001,VOC-0007,Investigate export failure response delay,Support operations,In progress,Review ticket queue and publish an update,True
+ACT-002,VOC-0005,Review CRM sync freshness,Integrations team,Planned,Confirm sync interval and communicate expected timing,True
+ACT-003,VOC-0004,Audit removed-seat billing behavior,Finance operations,Open,Reconcile seat history against invoice,True

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this framework, please cite it as follows."
+title: "LLM Systems Framework: Voice of Customer Analytics"
+type: software
+authors:
+  - family-names: "Rivera Sancho"
+    given-names: "Laura"
+year: 2026
+license: MIT
+repository-code: "https://github.com/laura-rivera-sancho/llm-systems-framework"
