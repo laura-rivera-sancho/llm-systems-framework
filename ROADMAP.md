@@ -8,8 +8,8 @@ This roadmap distinguishes implemented workflow components from evidence needed 
 | Gemini classification pipeline | Complete | 120/120 outputs validate; 120/120 evidence excerpts match source comments |
 | Blind evaluation workflow | Implemented; pilot only | Five human-labeled rows. Label a broader, varied sample and review disagreement cases before reporting quality estimates |
 | Full case study and stakeholder readout | Not started | A business-case/value-hypothesis draft exists; complete a decision narrative grounded in reviewable evaluation evidence and explicit limitations, without portraying synthetic data as business outcomes |
-| Public-repository packaging | Prepared locally; publication pending | README banner and portfolio review path, citation metadata, and community guidance are present. Still requires Git setup, an explicit file allowlist, final secret scan, and approval before the first push |
-| Push project files | Waiting for explicit user approval | Push only after the user reviews the final evaluation, case-study framing, and proposed commit contents |
+| Public-repository packaging | Published; CI passed | Initial commit `a988fd4` is on `main`; 36 reviewed files were published, all three Python CI jobs passed, the final credential-pattern scan found no hits, and `.env`, per-record caches, and the local API-usage ledger were excluded |
+| Push project files | Complete | Published to `https://github.com/laura-rivera-sancho/llm-systems-framework` after explicit approval; hosted tests passed on Python 3.11, 3.12, and 3.13 |
 
 ## Before making quality claims
 
@@ -20,4 +20,4 @@ This roadmap distinguishes implemented workflow components from evidence needed 
 
 ## Publication packaging
 
-The project folder currently has no `.git` directory, so there is no branch, commit history, configured remote, or tracked-file view to audit. The confirmed destination is `https://github.com/laura-rivera-sancho/llm-systems-framework`; its default branch `main` is currently empty. Do not initialize or push until the final file allowlist and first publication are approved. The local `.env` must remain excluded; the provided `.env.example` is the shareable template.
+The local repository is on `main` and tracks `origin/main`. The initial public commit is `a988fd4`. The explicit 36-file publication allowlist excluded `.env`, `.venv`, per-record caches, Python caches, and `data/processed/api_usage.jsonl`; `.env.example` is the shareable template. A final credential-pattern scan reported no hits. Keep future commits limited to reviewed files and rerun this scan before publication.

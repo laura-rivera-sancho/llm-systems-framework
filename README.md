@@ -52,7 +52,7 @@ See the [roadmap](ROADMAP.md) for the current completion gates. This project int
 | Gemini classification pipeline | Complete | Structured output, evidence checks, resumable cache, and usage logging; 120/120 saved records validate |
 | Human-review workflow | Implemented; pilot only | Blind worksheet and scoring exist; five labeled cases are not sufficient for quality claims |
 | Full portfolio case study | Not started | A business-case/value-hypothesis draft exists; a stakeholder readout still needs reviewable evaluation evidence and explicit limitations |
-| Publication packaging | Pending | The empty public repository exists; Git setup, final secret scan, file allowlist, and approval before the first push remain |
+| Publication packaging | Published; CI passed | Initial `main` commit published on 2026-10-13 with the reviewed 36-file allowlist; the Python 3.11–3.13 CI matrix passed; `.env`, per-record caches, and local API-usage logs are excluded |
 
 ## Dataset design and limitations
 
