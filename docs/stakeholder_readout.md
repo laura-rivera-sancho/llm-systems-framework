@@ -15,9 +15,11 @@ This repository demonstrates a workflow for exploration. It is not a recommendat
 
 ## Dashboard preview
 
-[![Dashboard preview showing feedback coverage, CSAT, NPS, and rating distributions](../assets/dashboard-preview.png)](../assets/dashboard-preview.png)
+[![Dashboard preview showing feedback coverage, CSAT, NPS, and rating distributions](../assets/dashboard-preview.png)](https://llm-systems-framework-5yirlr2uw3lblwswidtkho.streamlit.app/)
 
-This is a static screenshot of the local Streamlit app using the bundled synthetic data; it is not a hosted or live dashboard. To interact with the dashboard, follow the [README quick start](../README.md#quick-start).
+**[Open the live interactive dashboard](https://llm-systems-framework-5yirlr2uw3lblwswidtkho.streamlit.app/)**
+
+The image above is a static preview; clicking it opens the live Streamlit dashboard. Both use the bundled synthetic data.
 
 ## Demonstration readout
 
