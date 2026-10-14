@@ -13,6 +13,12 @@ This repository demonstrates a workflow for exploration. It is not a recommendat
 - A Streamlit dashboard for feedback themes, sentiment, segments, follow-ups, and separately generated synthetic survey ratings.
 - A seeded 30-record review sample and a separate prediction export. Both contain the same feedback IDs so reviewers can compare them after completing the blind worksheet.
 
+## Dashboard preview
+
+[![Dashboard preview showing feedback coverage, CSAT, NPS, and rating distributions](../assets/dashboard-preview.png)](../assets/dashboard-preview.png)
+
+This is a static screenshot of the local Streamlit app using the bundled synthetic data; it is not a hosted or live dashboard. To interact with the dashboard, follow the [README quick start](../README.md#quick-start).
+
 ## Demonstration readout
 
 All 120 synthetic records have saved, schema-valid classifications, and the supporting excerpts match their source comments. In this intentionally constructed sample, 20 survey records have separate synthetic ratings: average CSAT is **3.8/5**, top-two-box is **65%**, and NPS is **+20**. These values demonstrate dashboard calculations; they are not observed customer satisfaction or business performance.
