@@ -4,6 +4,8 @@
 
 [![Repository quality](https://github.com/laura-rivera-sancho/llm-systems-framework/actions/workflows/ci.yml/badge.svg)](https://github.com/laura-rivera-sancho/llm-systems-framework/actions/workflows/ci.yml)
 
+[GitHub portfolio](https://github.com/laura-rivera-sancho) · [LinkedIn](https://www.linkedin.com/in/laura-rivera-sancho-970223128/)
+
 An offline-first demonstration of how an LLM can turn unstructured B2B SaaS feedback into structured customer experience signals. The included feedback and action tracker are synthetic; all example patterns are for demonstrating the workflow and do not represent real customers or business findings.
 
 ## Portfolio review path
@@ -45,6 +47,19 @@ The pipeline uses small Python modules and files rather than a database, agent f
 
 See the [roadmap](ROADMAP.md) for the current completion gates. This project intentionally does not claim a validated business case: the source records are synthetic and only five cases currently have human labels.
 
+## Technology stack
+
+| Layer | Technologies | Purpose |
+|---|---|---|
+| Application | Python 3.11+, Streamlit | Pipeline orchestration and interactive portfolio dashboard |
+| LLM integration | Google Gemini via `google-genai` | Schema-guided classification of customer comments |
+| Data and validation | pandas, structured JSON, deterministic CSV generation | Reproducible transformation, validation, and offline analysis |
+| Visualization | Plotly | Interactive views of sentiment, themes, segments, and survey metrics |
+| Configuration | python-dotenv | Local environment configuration without committing credentials |
+| Quality | pytest, GitHub Actions | Offline tests and Python 3.11–3.13 continuous integration |
+
+The design is deliberately lightweight: local files and resumable checkpoints keep the workflow inspectable, reproducible, and easy to review without requiring a database or agent framework.
+
 ## Milestones
 
 | Milestone | Status | Outcome |
@@ -70,6 +85,19 @@ Each successful feedback ID is cached as JSON under `data/cache/`. The pipeline 
 The saved batch contains **120 valid classifications for 120 input records** using `gemini-3.1-flash-lite`. The independent validator found no missing, extra, duplicate, failed, or invalid rows; the evidence audit found 120 source-grounded excerpts. The initial fast burst encountered 429 rate-limit responses, and the slower resumed run also saw transient 503 responses. Those errors were retried or resumed; no records remain failed or unclassified. Requests were kept sequential, and no billing changes or model changes were made. Google notes that active RPM/TPM/RPD limits vary by model and project and are shown in [AI Studio](https://ai.google.dev/gemini-api/docs/rate-limits).
 
 The usage ledger contains **145 request events** for 117 record IDs: 135 responses and 10 failed attempts, with 23,668 input tokens and 14,025 output tokens recorded. Some IDs have multiple ledger events; the event file does not identify the cause of every repeat, so this count is API activity, not unique classifications. The three earlier smoke-test requests predate the ledger and are not included. No cost estimate was recorded because per-token rates were not configured.
+
+## Sample results
+
+| Demonstration output | Result | Interpretation |
+|---|---:|---|
+| Valid classifications | 120 / 120 | Every synthetic input has a schema-valid saved output |
+| Evidence-grounded excerpts | 120 / 120 | Each saved classification includes supporting text found in its source comment |
+| Illustrative CSAT | 3.8 / 5; 65% top-two-box | Synthetic survey output for dashboard demonstration only |
+| Illustrative NPS | +20 | Synthetic result from 20 constructed responses |
+| Pilot sentiment review | 80% accuracy; 0.381 macro-F1 | Preliminary comparison using only five human-labeled cases |
+| Pilot category review | 100% accuracy; 0.200 macro-F1 | Preliminary comparison using only five cases and narrow class coverage |
+
+These results demonstrate pipeline behavior, validation, and reporting—not production model quality or real customer outcomes. The small human-reviewed sample is intentionally disclosed so the metrics are not overinterpreted.
 
 ## Quick start
 
@@ -125,6 +153,10 @@ python -m pytest
 
 Tests cover deterministic dataset creation, evidence validation, resumable checkpoints, stratified blind sampling, separate prediction export, evaluation metrics, and usage logging. They do not call Gemini and do not assert model quality.
 
+## Confidentiality disclaimer
+
+This is a public portfolio project built exclusively with fictional scenarios, synthetic feedback, and illustrative outputs. It contains no client, employer, customer, or proprietary information. Names, metrics, findings, and recommended actions are demonstration artifacts and must not be interpreted as disclosures or results from a real organization. Do not add confidential, personal, regulated, or otherwise sensitive data to prompts, datasets, screenshots, issues, or commits.
+
 ## Limitations and next steps
 
 - Synthetic, repeated feedback is not representative of real customer language or prevalence.
@@ -159,4 +191,4 @@ This project complements the portfolio's [data architecture framework](https://g
 
 ## License and citation
 
-The code is available under the [MIT License](LICENSE). Citation metadata is in [CITATION.cff](CITATION.cff); publication remains pending until the final file allowlist and first-push approval are confirmed.
+The code is available under the [MIT License](LICENSE). Citation metadata is in [CITATION.cff](CITATION.cff). The repository is published as a portfolio demonstration; see the confidentiality disclaimer and limitations above before reusing the workflow.
